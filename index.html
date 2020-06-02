@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touch nums game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init('840px')">
+    <header>
+        <h1>Touch the numbers!</h1>
+    </header>
+    <div class="stopWatch">00:00:000</div>
+    <div class="gameLevel">
+        <span onclick="clickOnLevel(16, '840px')">Easy</span>
+        <span onclick="clickOnLevel(25, '820px')">Hard</span>
+        <span onclick="clickOnLevel(36, '780px')">Extreme</span>
+    </div>
+    <div class="table-container">
+        <table>
+        </table>
+    </div>
+    <div class="WinningText"></div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
